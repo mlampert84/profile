@@ -1,0 +1,127 @@
+$main-background-color: #e3f2fd;
+$subject-headings-background: #90caf9;
+$table-of-contents-border: #ea80fc;
+
+body {
+    background-color: $main-background-color;
+}
+
+footer,
+header,
+main {
+    padding-left: 200px;
+
+}
+@media only screen and (max-width: 992px) {
+    footer,
+    header,
+    main {
+        padding-left: 0;
+    }
+}
+
+.title {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0 40px;
+}
+
+.title1 {
+    text-align: left;
+}
+
+.title2 {
+    text-align: center;
+}
+
+.title3 {
+    text-align: right;
+}
+
+.title_subscript {
+    text-align: center;
+    line-height: 100%;
+    padding-top: 20px;
+}
+
+.home-button {
+    background-color: #ab47bc;
+    text-align: center;
+
+    h4 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 12px;
+        line-height: 16px;
+    }
+}
+
+.table-of-contents {
+    a {
+        color: #757575;
+
+        &:hover {
+            color: lighten(#757575, 20%);
+            border-color: $table-of-contents-border;
+        }
+
+        &.active {
+            border-color: $table-of-contents-border;
+        }
+    }
+
+    .active {
+        background-color: #ab47bc;
+        border-left: 2px solid red;
+    }
+}
+
+.side-nav {
+    background-color: #f3e5f5;
+    ul {
+      padding: 0;
+    }
+}
+
+nav {
+    background-color: $subject-headings-background;
+    color: black;
+    text-align: center;
+    line-height: 20px;
+
+    .button-collapse {
+        color: black;
+    }
+
+    div {
+        // padding-top: 8px;
+        position: absolute;
+        left: 0;
+        right: 0;
+    }
+}
+
+#profile_pic {
+    display: block;
+    margin: 0 auto;
+}
+
+.myWideContainer {
+    width: 97%;
+}
+
+.subject_banner {
+    width: 97%;
+}
+
+.subject_heading {
+    display: block;
+    background-color: $subject-headings-background;
+    padding: 20px 0 20px 40px;
+}
+
+p {
+    font-size: 20px;
+}
