@@ -127,6 +127,49 @@
 		"oAP": "\/fonts\/roboto\/Roboto-Thin.woff2",
 		"oF": 0
 		},
+	"\/images\/game-of-life-screenshot.png": {
+		"ft": 32768,
+		"iS": 16427,
+		"oA": 0,
+		"oAP": "\/images\/game-of-life-screenshot.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/meteorite-landings-screenshot.png": {
+		"ft": 32768,
+		"iS": 137035,
+		"oA": 0,
+		"oAP": "\/images\/meteorite-landings-screenshot.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/mlampert_headshot.jpg": {
+		"ft": 16384,
+		"iS": 35202,
+		"oA": 0,
+		"oAP": "\/images\/mlampert_headshot.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/images\/Simon_Game_Image.png": {
+		"ft": 32768,
+		"iS": 45492,
+		"oA": 0,
+		"oAP": "\/images\/Simon_Game_Image.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -193,16 +236,6 @@
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
-		},
-	"\/mlampert_headshot.jpg": {
-		"ft": 16384,
-		"iS": 35202,
-		"oA": 0,
-		"oAP": "\/mlampert_headshot.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
 		},
 	"\/sass\/components\/_badges.scss": {
 		"aP": 0,
