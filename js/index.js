@@ -7,6 +7,7 @@ $(document).ready(function() {
   matchFlipcardFaceDimensions();
 
   $('.toggleFront').click(function() {
+    console.log("Toggling image");
     var heightBack = $(this).closest('.flipcard')
              .find('.toggleBack').height();
     var heightFront = $(this).height();
@@ -19,6 +20,7 @@ $(document).ready(function() {
   });
 
   $('.toggleBack').click(function() {
+
     $(this).closest('.flipcard')
            .find('.toggleFront')
            .animate({marginTop:0},2000);
