@@ -2,12 +2,16 @@
 <html>
 
 <head>
+<!-- fontawesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/solid.js" integrity="sha384-+Ga2s7YBbhOD6nie0DzrZpJes+b2K1xkpKxTFFcx59QmVPaSA8c7pycsNaFwUK6l" crossorigin="anonymous"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/brands.js" integrity="sha384-sCI3dTBIJuqT6AwL++zH7qL8ZdKaHpxU43dDt9SyOzimtQ9eyRhkG3B7KMl6AO19" crossorigin="anonymous"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/fontawesome.js" integrity="sha384-7ox8Q2yzO/uWircfojVuCQOZl+ZZBg2D2J5nkpLqzH1HY0C1dHlTKIbpRz/LG23c" crossorigin="anonymous"></script>
+
 
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="css/materialize.css" media="screen,projection" />
-    <!--hello!-->
     <!-- My person styles sheet -->
     <link type="text/css" rel="stylesheet" href="css/main.css">
     <!--Let browser know website is optimized for mobile-->
@@ -50,7 +54,7 @@
                             <h3 class="title">I'm Marcus Lampert.</h3>
                             <h5 class="title">A Full Stack Developer based in Berlin.</h5>
                             <h5 class="title">My preferred stack consists of React, Node, Express, and Mongo.</h5>
-                            <a><h6>More about me.</h6></a>
+                            <!-- <a><h6>More about me.</h6></a> -->
                         </div>
                     </div>
 
@@ -64,74 +68,96 @@
                 <h1>Projects</h1>
 
                 <div class="row">
-   <div class="col s12">
-     <div class="flipcard-container">
-       <div class="flipcard">
-         <div class="face front">
-           <img class="responsive-img toggleElement z-depth-2" src="images/voting_app.gif">
-         </div>
-           <div class="face back toggleElement z-depth-5">
-             <h1>Project Description</h1>
-           </div>
+                    <div class="col s12">
+                        <div class="flipcard-container">
+                            <div class="flipcard">
+                                <div class="face front">
+                                    <img class="responsive-img toggleFront z-depth-2" src="images/voting_app.gif">
+                                </div>
+                                <div class="face back toggleBack z-depth-2 valign-wrapper">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col s12">
+                                                <p><i>Demos</i> is a full stack voting app that allows users to create polls for their friends, vote on these polls, and view the results.
+                                                </p>
+                                                <p>Built with React, React Router, Redux, Redux Thunk, Redux Form, Materialize, Rechart, Node, Express, MongoDB, Mongoose, and Passport.js
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+<a href="https://pure-wave-94794.herokuapp.com/" target="_blank">
+                                            <div class="col m5 s12 btn waves-effect">
+                                             View Online  &nbsp;&nbsp;<i class="fa fa-external-link-alt"></i>
 
-       </div>
-       <!-- flipcard -->
-     </div>
-     <!-- flipcard-container -->
-    </div>
-    <!-- col  -->
-   </div>
-   <!-- row -->
-  <div class="col s12">
-<h5>Demos - A Voting App</h5>
-  </div>
-                <div class="row">
-                    <div class="col l4 m6 s12">
-                        <div class="card medium">
-                            <a href="https://mlampert84.github.io/Simon-Game/" target="_blank">
-                                <div class="card-image">
-                                    <img src="images/Simon_Game_Image.png"></a>
+                                            </div>
+                                            </a>
+<a href="https://github.com/mlampert84/demos-voting-app" target="_blank">
+                                            <div class="col m5 offset-m2 s12 btn waves-effect" </div>
+                                              View Source &nbsp;&nbsp;<div class="customSize"><i class="fab fa-github"></i></div>
+                                            </div>
+</a>
+                                        </div>
+
+                                    </div>
+                                    <!-- back face of flipcard -->
+                                </div>
+                                <!-- flipcard -->
                             </div>
-                            <div class="card-content"></div>
-                            <h5 class="project-title">Simon Game</h5>
-                            <p>Classic Simon Game programmed in Javascript.</p>
+                            <!-- flipcard-container -->
+                        </div>
+                        <!-- col  -->
+                    </div>
+                    <!-- row -->
+                    <div class="col s12">
+                        <h5>Demos - A Voting App</h5>
+                    </div>
+                    <div class="row">
+                        <div class="col l4 m6 s12">
+                            <div class="card medium">
+                                <a href="https://mlampert84.github.io/Simon-Game/" target="_blank">
+                                    <div class="card-image">
+                                        <img src="images/Simon_Game_Image.png"></a>
+                                </div>
+                                <div class="card-content"></div>
+                                <h5 class="project-title">Simon Game</h5>
+                                <p>Classic Simon Game programmed in Javascript.</p>
+
+                            </div>
+                        </div>
+                        <div class="col l4 m6 s12">
+                            <div class="card medium">
+                                <a href="https://codepen.io/mlampert/full/yzjYwW/" target="_blank">
+                                    <div class="card-image">
+                                        <img src="images/game-of-life-screenshot.png"></a>
+                                </div>
+                                <div class="card-content"></div>
+
+                                <h5 class="project-title">Game of Life</h5>
+                                <p>Example of cellular automata. Programmed in React.</p>
+
+                            </div>
 
                         </div>
-                    </div>
-                    <div class="col l4 m6 s12">
-                        <div class="card medium">
-                            <a href="https://codepen.io/mlampert/full/yzjYwW/" target="_blank">
-                                <div class="card-image">
-                                    <img src="images/game-of-life-screenshot.png"></a>
-                            </div>
-                            <div class="card-content"></div>
+                        <div class="col l4 m6 s12">
+                            <div class="card medium">
+                                <a href="https://mlampert84.github.io/meteorite-landings/" target="_blank">
+                                    <div class="card-image">
+                                        <img src="images/meteorite-landings-screenshot.png"></a>
+                                </div>
+                                <div class="card-content"></div>
 
-                            <h5 class="project-title">Game of Life</h5>
-                            <p>Example of cellular automata. Programmed in React.</p>
+                                <h5 class="project-title">Meteorite Landings</h5>
+                                <p>Example of an interactive data visualization. <br>Programed using D3.js.</p>
+
+                            </div>
 
                         </div>
 
-                    </div>
-                    <div class="col l4 m6 s12">
-                        <div class="card medium">
-                            <a href="https://mlampert84.github.io/meteorite-landings/" target="_blank">
-                                <div class="card-image">
-                                    <img src="images/meteorite-landings-screenshot.png"></a>
-                            </div>
-                            <div class="card-content"></div>
-
-                            <h5 class="project-title">Meteorite Landings</h5>
-                            <p>Example of an interactive data visualization. <br>Programed using D3.js.</p>
-
-                        </div>
 
                     </div>
-
-
                 </div>
-            </div>
 
-            <!-- <section id="testimonials" class="section scrollspy">
+                <!-- <section id="testimonials" class="section scrollspy">
                 <div class="container">
                     <div class="divider"></div>
                     <h1>Testimonials</h1>
@@ -142,7 +168,7 @@
 
                 </div>
             </section> -->
-            <!-- </section>
+                <!-- </section>
         <section id="experience" class="section scrollspy">
             <div class="subject_banner">
 

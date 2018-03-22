@@ -2216,7 +2216,7 @@
 	"externalServerAddress": "http:\/\/localhost:8888",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
-	"jsCheckerReservedNamesString": "",
+	"jsCheckerReservedNamesString": "$",
 	"jsHintFlags2": {
 		"asi": {
 			"active": 0,
