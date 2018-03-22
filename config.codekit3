@@ -127,6 +127,33 @@
 		"oAP": "\/fonts\/roboto\/Roboto-Thin.woff2",
 		"oF": 0
 		},
+	"\/images\/DEMOS_GIF_LARGER.gif": {
+		"ft": 4194304,
+		"iS": 580696,
+		"oA": 0,
+		"oAP": "\/images\/DEMOS_GIF_LARGER.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/Demos_Screenshot.png": {
+		"ft": 32768,
+		"iS": 98082,
+		"oA": 0,
+		"oAP": "\/images\/Demos_Screenshot.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/DemosGIF.gif": {
+		"ft": 4194304,
+		"iS": 725153,
+		"oA": 0,
+		"oAP": "\/images\/DemosGIF.gif",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/images\/game-of-life-screenshot.png": {
 		"ft": 32768,
 		"iS": 16427,
@@ -144,19 +171,9 @@
 		"oA": 0,
 		"oAP": "\/images\/meteorite-landings-screenshot.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/images\/mlampert_headshot.jpg": {
-		"ft": 16384,
-		"iS": 35202,
-		"oA": 0,
-		"oAP": "\/images\/mlampert_headshot.jpg",
-		"oF": 0,
-		"oIPL": 0,
+		"oIPL": 1,
 		"opt": 1,
+		"oT": 1,
 		"q": 100
 		},
 	"\/images\/Simon_Game_Image.png": {
@@ -753,6 +770,19 @@
 		"ma": 1,
 		"oA": 1,
 		"oAP": "\/sass\/components\/css\/_switches.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/sass\/flipcard.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/css\/flipcard.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1

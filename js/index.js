@@ -1,12 +1,34 @@
-// Initialize collapse button
-  $(".button-collapse").sideNav({
-    menuWidth: 200
+$(document).ready(function() {
+  $('.scrollspy').scrollSpy();
+  $('.button-collapse').sideNav({
+    closeOnClick: true
   });
-  // Initialize collapsible (uncomment the line below if you use the dropdown variation)
-  //$('.collapsible').collapsible();
 
+  matchFlipcardFaceDimensions();
 
-  $(document).ready(function(){
-      $('.scrollspy').scrollSpy();
-    });
-          
+  $('.toggleElement').click(function() {
+    $(this)
+      .closest('.flipcard')
+      .toggleClass('flipped');
+  });
+});
+
+$(window).resize(function() {
+  matchFlipcardFaceDimensions();
+});
+
+function matchFlipcardFaceDimensions() {
+  //this function matches the size of the backface of the flipcard to the image on the front of the card.
+  $('.face.back').each(function() {
+    var height = $(this)
+      .closest('.flipcard')
+      .find('.front')
+      .height();
+    var width = $(this)
+      .closest('.flipcard')
+      .find('img')
+      .width();
+    $(this).height(height);
+    $(this).width(width);
+  });
+}
