@@ -127,13 +127,13 @@
 		"oAP": "\/fonts\/roboto\/Roboto-Thin.woff2",
 		"oF": 0
 		},
-	"\/images\/DEMOS_GIF_LARGER.gif": {
+	"\/images\/demos_gif_larger.gif": {
 		"ft": 4194304,
-		"iS": 580696,
+		"iS": 554515,
 		"oA": 0,
-		"oAP": "\/images\/DEMOS_GIF_LARGER.gif",
+		"oAP": "\/images\/demos_gif_larger.gif",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/images\/Demos_Screenshot.png": {
 		"ft": 32768,
