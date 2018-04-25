@@ -7,7 +7,7 @@
 		"uuidString": "26B097D9-58B9-4E57-A292-02EFC0D84D2E"
 		}
 	],
-"creatorBuild": "26148",
+"creatorBuild": "26680",
 "files": {
 	"\/.gitignore": {
 		"cB": 0,
@@ -133,8 +133,8 @@
 		"oA": 0,
 		"oAP": "\/images\/Demos_Screenshot.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -144,7 +144,7 @@
 		"oA": 0,
 		"oAP": "\/images\/DemosGIF.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/images\/game-of-life-screenshot.png": {
 		"ft": 32768,
@@ -152,8 +152,8 @@
 		"oA": 0,
 		"oAP": "\/images\/game-of-life-screenshot.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -185,7 +185,7 @@
 		"oA": 0,
 		"oAP": "\/images\/voting_app.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/index.html": {
 		"cB": 0,
@@ -823,7 +823,8 @@
 	"displayValue": "profile",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-ariel",
-	"lastBuiltDate": 536840571
+	"iconImageWasSetByUser": 0,
+	"lastBuiltDate": 546342122
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -831,6 +832,7 @@
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
+	"autoprefixerEnableIEGrid": 0,
 	"babelAuxiliaryCommentAfter": "",
 	"babelAuxiliaryCommentBefore": "",
 	"babelConfigFileHandlingType": 0,
@@ -1394,6 +1396,10 @@
 		"id-match": {
 			"active": 0,
 			"optionString": "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true}"
+			},
+		"implicit-arrow-linebreak": {
+			"active": 0,
+			"optionString": "'beside'"
 			},
 		"indent": {
 			"active": 0,
@@ -2621,6 +2627,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
+		"outputFormat": 0,
 		"quality": 100
 		},
 	"languageDefaultsJS": {

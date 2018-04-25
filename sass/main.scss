@@ -1,4 +1,4 @@
-@import 'flipcard';
+@import "flipcard";
 
 $main-background-color: white;
 $header-and-footer: #e5ecea;
@@ -72,28 +72,26 @@ nav {
 }
 
 #projects {
-
-  .back{
+  .back {
     background-color: $header-and-footer;
     color: $bold-color;
 
-
-    p{
- padding-top: 30px;
+    p {
+      padding-top: 30px;
       font-size: 20px;
     }
-    .btn{
-    margin-top: 20px;
-    background-color: #a48060;
-    color: $bold-color;
-    font-size: 18px;
-    display: inline;
-  }
-  i{
-    font-size: 25px;
-  }
-  .customSize{
-    display: inline-block;
-  }
+    .btn {
+      margin-top: 20px;
+      background-color: #a48060;
+      color: $bold-color;
+      font-size: 18px;
+      display: inline;
+    }
+    i {
+      font-size: 25px;
+    }
+    .customSize {
+      display: inline-block;
+    }
   }
 }
